@@ -1,0 +1,11 @@
+Input: elemnt to be searched in an array
+Output: Position and boolean
+read : input_a
+for i in length(search_array):
+    if input_a == array[i] then 
+        pos = i, 
+        print "Element present at {pos}"
+        break;
+    else: flag = 1
+if flag == 1 than 
+print "Element not present"

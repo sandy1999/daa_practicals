@@ -1,0 +1,10 @@
+Write an algo for largest of three numbers
+Write and compute gcd of two numbers 
+Write and implement of linear search
+Write an algorithm for selection sort 
+Write and implement algorithm for bubble sort
+
+Q1 Calculate worst and best case running time of linear search 
+Q2 Write and implement an algo of insertion sort
+Q3 Change the algo to perform sorting in decreasing order
+Q4 In the implementation find number of times the algorithm runs where input array is in reverse order and when input array is already in sorted order
