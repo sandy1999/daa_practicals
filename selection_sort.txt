@@ -1,0 +1,12 @@
+Input: Read unsorted array
+Output: sorted array
+read: array
+
+for i<-1 in length of array:
+    min_idx = i
+    for j<-i+1 length of array:
+        if(array[j] < array[min_idx]):
+            min_idx = j
+    temp = array[i]
+    array[i] = array[min_idx]
+    array[min_idx] = temp
