@@ -1,0 +1,11 @@
+Input: unsorted array 
+output : sorted array
+read : array 
+
+for i<-1 in length of array:
+    for j<-i+1 in length of array:
+        if array[j] < array[i]:
+            temp = array[i]
+            array[i] = array[j]
+            array[j] = temp
+    
