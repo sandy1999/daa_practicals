@@ -4,6 +4,9 @@ Write and implement of linear search
 Write and implement an algo of insertion sort
 Write an algorithm for selection sort 
 Write and implement algorithm for bubble sort
+Write and implement the algorithm of iterative and reccursive binary search
+Write and implement algorithm of merge sort
+Write and implement algorithm of quicksort
 
 Q1 Calculate worst and best case running time of linear search 
 Q3 Change the algo to perform sorting in decreasing order
