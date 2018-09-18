@@ -1,0 +1,16 @@
+input: Element to be searched in a array A
+output: position of element 
+
+read: search_element
+
+function binary_search(array, lower, higher, search_element):
+    if lower < higher:
+        do mid = (lower + higher) /2
+        if array[mid] == search_element:
+            print("Element found at position (mid)")
+        else if (array[mid] < higher):
+            binary_search(array, mid +1, higher, search_element)
+        else:
+            binary_search(array, lower, mid -1, search_element)
+    else:
+        print("Element not found in array")
