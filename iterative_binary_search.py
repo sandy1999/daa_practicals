@@ -1,9 +1,8 @@
 array = [0, 1, 2, 8, 13, 17, 19, 32, 42,]
 first = 0
 last = len(array)-1
-found = False
 item = int(input("Enter element to be searched in array "))
-while first<=last and not found:
+while first<=last:
     midpoint = (first + last)//2
     if array[midpoint] == item:
         print("Element found at postion {}".format(midpoint))
