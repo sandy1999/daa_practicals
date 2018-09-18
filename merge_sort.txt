@@ -1,0 +1,30 @@
+Input: unsorted array 
+Output: sorted array
+read : array A
+
+function merge(A, lower, higher):
+    B = []
+    mid = lower + higher // 2
+    i, j = lower, mid + 1
+    while((i <= lower) and (j <= higher)):
+        if(A[i]< A[j]):
+            B.append(A[i])
+            i+=1
+        else:
+            B.append(A[j])
+            j+1
+    if (i > mid):
+        while(j <= higher):
+            B.append(A[j])
+            j+=1
+    else:
+        while(i >= mid)
+            B.append(A[i])
+    A = B
+
+function mergeSort(A, lower, higher):
+    if(lower < higher):
+        mid = lower + higher // 2
+    mergeSort(A, lower, mid)
+    mergeSort(A, mid+1, higher)
+    merge(A, lower, higher)
