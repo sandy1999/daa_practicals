@@ -3,8 +3,8 @@ def merge(arr, l, m, r):
     n2 = r- m 
   
     # create temp arrays 
-    L = [0] * (n1) 
-    R = [0] * (n2) 
+    L = arr[:n1]
+    R = arr[:n2]
     # Copy data to temp arrays L[] and R[] 
     for i in range(0 , n1): 
         L[i] = arr[l + i] 
@@ -53,7 +53,6 @@ def mergeSort(arr,l,r):
         mergeSort(arr, l, m) 
         mergeSort(arr, m+1, r) 
         merge(arr, l, m, r) 
-
 def main():
     A = [6,5,1,3,2]
     mergeSort(A, 0, len(A)-1)
