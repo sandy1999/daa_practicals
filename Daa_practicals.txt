@@ -7,6 +7,7 @@ Write and implement algorithm for bubble sort
 Write and implement the algorithm of iterative and reccursive binary search
 Write and implement algorithm of merge sort
 Write and implement algorithm of quicksort
+Write and implement algorithm for radix sort
 
 Q1 Calculate worst and best case running time of linear search 
 Q3 Change the algo to perform sorting in decreasing order
